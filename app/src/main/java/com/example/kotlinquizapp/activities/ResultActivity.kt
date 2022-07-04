@@ -49,18 +49,17 @@ class ResultActivity : AppCompatActivity() {
     }
 
     private fun calculateScore() {
-        var correctAnsw = 0
+        var correctAnsw:Double = 0.0
         for (entry in quiz.questions.entries) {
             val question = entry.value
             if (question.answer == question.userAnswer) {
                 correctAnsw += 1
-
             }
         }
-        val question = quiz.questions.entries.size
-        val finalResult = (correctAnsw/question)*100
+        val question:Double = quiz.questions.entries.size.toDouble()
+        val finalResult:Double = (correctAnsw/question)*100
         txtScore.text = "Your Score : $finalResult%"
-        if(finalResult == 0)
+        if(finalResult == 0.0)
         {
             txtFeedback.setText("0?? Get real...")
         }
