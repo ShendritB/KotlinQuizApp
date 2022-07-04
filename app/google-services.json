@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "20053744557",
+    "project_id": "kotlinquizappmesh",
+    "storage_bucket": "kotlinquizappmesh.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20053744557:android:fdd26f40cc8c311d1d5f24",
+        "android_client_info": {
+          "package_name": "com.cheezycode.quizzed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "20053744557-g39a91o12oq803rmskk4m2dio11stp84.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhZMhsg8SwDxIU_j8vDAMWd0yre8kXZsY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "20053744557-g39a91o12oq803rmskk4m2dio11stp84.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20053744557:android:7e4ffea8d0d893d81d5f24",
+        "android_client_info": {
+          "package_name": "com.example.kotlinquizapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "20053744557-g39a91o12oq803rmskk4m2dio11stp84.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhZMhsg8SwDxIU_j8vDAMWd0yre8kXZsY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "20053744557-g39a91o12oq803rmskk4m2dio11stp84.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
